@@ -10,53 +10,8 @@
 	}
 }
 
-.nav {
-	padding: 0 10px;
-	border-top: solid black 1px;
-	border-bottom: solid black 3px;
-	position: relative;
-
-	&__link {
-		display: inline-block;
-		font-size: 20px;
-		padding: 10px;
-
-		&:hover {
-			background: $col2;
-		}
-	}
-}
-
-.nav-top {
-	&__list {
-		visibility: hidden;
-		position: absolute;
-		top: 100%;
-		left: 0;
-		width: 100%;
-		padding: 20px;
-		background: $col2;
-	}
-
-	&:hover .nav-top__list {
-		visibility: visible;
-	}
-
-	&__list {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-	}
-
-	&__item {
-		padding: 5px;
-	}
-
-	&__fig {
-		margin: 0;
-	}
-
-	&__caption {
-		padding: 10px;
-	}
-}
+@import "nav.css";
+@import "nav-top.css";
+@import "splitted-section.css";
+@import "preview-section.css";
+@import "image-header.css";

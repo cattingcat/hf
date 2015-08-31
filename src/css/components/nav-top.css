@@ -1,0 +1,33 @@
+.nav-top {
+	&__list {
+		visibility: hidden;
+		position: absolute;
+		top: 100%;
+		left: 0;
+		width: 100%;
+		padding: 20px;
+		background: $col2;
+	}
+
+	&:hover .nav-top__list {
+		visibility: visible;
+	}
+
+	&__list {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	&__item {
+		padding: 5px;
+	}
+
+	&__fig {
+		margin: 0;
+	}
+
+	&__caption {
+		padding: 10px;
+	}
+}
