@@ -2,7 +2,6 @@ bin
 obj
 packages
 
-components
 build
 # Logs
 logs
