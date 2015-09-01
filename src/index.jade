@@ -36,7 +36,13 @@ html.text
 			main.content
 				section.content__main
 					section.article
-						header Header
+						header.article__header.title-img
+							img(src="http://placehold.it/1150x150").title-img__img
+							a(href="#").title-img__link
+							div.title-img__head
+								h6.title-img__author Lorem ipsum
+								h2.title-img__title Lorem ipsum dolor sit amet
+								div.title-img__desc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labor
 						section s1
 						section s2
 						section s3
@@ -44,6 +50,11 @@ html.text
 						
 					section.splited
 						div.splited__big
+							div.title-img
+								img(src="http://placehold.it/450x350").title-img__img
+								a(href="#").clear.title-img__head
+									h2 Lorem ipsum dolor sit amet
+									div.title-img__desc Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labor
 						div.splited__small
 						
 					section.image-section
