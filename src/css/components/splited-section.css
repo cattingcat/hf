@@ -1,0 +1,19 @@
+.splited {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+
+	&__big {
+		width: 63%;
+	}
+
+	&__small {
+		width: 37%;
+	}
+}
+
+@media screen and (max-width:800px) {
+	.splited {
+		flex-direction: column;
+	}
+}
