@@ -47,6 +47,11 @@
 		}
 	}
 
+	img.block {
+		display: block;
+		width: 100%;
+	}
+
 	p {
 		text-indent: 20px;
 		&.fl {

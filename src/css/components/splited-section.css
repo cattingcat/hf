@@ -5,10 +5,12 @@
 
 	&__big {
 		width: 63%;
+		padding-right: 5px;
 	}
 
 	&__small {
 		width: 37%;
+		padding-left: 5px;
 	}
 }
 

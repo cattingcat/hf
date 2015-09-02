@@ -1,4 +1,13 @@
 .preview {
+	text-align: center;
+	&__author {
+
+	}
+
+	&__img {
+
+	}
+
 	&__header {
 
 	}

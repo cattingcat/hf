@@ -1,0 +1,11 @@
+.grid {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin: -5px;
+
+	&__item {
+		width: 33.333%;
+		padding: 5px;
+	}
+}
